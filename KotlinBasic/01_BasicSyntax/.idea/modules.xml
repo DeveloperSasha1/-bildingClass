@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_BasicSyntax.iml" filepath="$PROJECT_DIR$/.idea/modules/01_BasicSyntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/01_BasicSyntax.iml" filepath="$PROJECT_DIR$/.idea/01_BasicSyntax.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/01_BasicSyntax.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/01_BasicSyntax.app.iml" />
     </modules>
   </component>
