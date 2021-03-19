@@ -15,11 +15,19 @@ fun main() {
     val  firstName = "Aleksandr"
     val lastName = "Shchekin"
     var height = 140
-    height = 150
     val weight = 40f
-    val isChild = height < 150 || weight < 40
-    val info = "My name is $firstName and lastName is $lastName. My height is $height sm." +
+    var isChild = height < 150 || weight < 40
+    var info = "My name is $firstName and lastName is $lastName. My height is $height sm." +
             " and weight is $weight kg. I'am is child and it is $isChild"
     println(info)
+    height = 150
+    isChild = height < 150 || weight < 40
+    info = "My name is $firstName and lastName is $lastName. My height is $height sm." +
+            " and weight is $weight kg. I'am is child and it is $isChild"
+    println(info)
+
+
+
+
 
 }
