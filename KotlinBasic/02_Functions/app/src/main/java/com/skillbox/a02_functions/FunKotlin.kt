@@ -9,7 +9,6 @@ fun main() {
 
 }
 
-
 fun  solveEquation (a: Int, b: Int, c: Int): Double {
 
     val dis = (b * b - 4 * a * c).toDouble() // расчет дискриминанта
