@@ -11,13 +11,13 @@ class MainActivity : AppCompatActivity() {
 }
 
 fun main() {
-    var N = readLine()?.toIntOrNull() ?: return
+    var number = inputNumber()
     var counter: Int = 0
     var  sum = 0
 
-    while (N > 0) {
-            var n: Int = readLine()?.toIntOrNull() ?: continue
-            N--
+    repeat(number) {
+            val n: Int = readLine()?.toIntOrNull() ?: return
+            number--
             if (n > 0) counter++
                 sum += n
 
@@ -29,6 +29,11 @@ fun main() {
     println("НОД = ${{ { gcd(sum, b) } }}")
 
 
+
+}
+
+private fun inputNumber(): Int {
+    return readLine()?.toIntOrNull() ?: inputNumber()
 
 }
 tailrec fun gcd(a: Int, b: Int): Int {
