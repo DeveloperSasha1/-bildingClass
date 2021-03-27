@@ -11,24 +11,20 @@ class MainActivity : AppCompatActivity() {
 }
 
 fun main() {
-    var number = inputNumber()
+    val number = inputNumber()
     var counter: Int = 0
     var  sum = 0
 
     repeat(number) {
-            val n: Int = readLine()?.toIntOrNull() ?: return
-            number--
+            val n = inputNumber()
             if (n > 0) counter++
                 sum += n
-
-        }
+    }
 
     println(counter)
     println(sum)
     val b: Int = readLine()?.toIntOrNull() ?: return
-    println("НОД = ${{ { gcd(sum, b) } }}")
-
-
+    println("НОД = ${ gcd(sum, b) }")
 
 }
 
